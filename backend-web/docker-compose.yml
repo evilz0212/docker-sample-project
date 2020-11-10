@@ -15,3 +15,8 @@ services:
         ports:
             - 8899:80
             - 4499:443
+        networks:
+            - myNetwork
+networks:
+    myNetwork:
+        name: backend_web

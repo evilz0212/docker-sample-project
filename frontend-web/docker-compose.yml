@@ -15,3 +15,8 @@ services:
         ports:
             - 8888:80
             - 4433:443
+        networks:
+            - myNetwork
+networks:
+    myNetwork:
+        name: frontend_web

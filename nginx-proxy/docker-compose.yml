@@ -19,7 +19,7 @@ services:
 networks:
     frontend:
         external:
-            name: frontend-web_default
+            name: frontend_web
     backend:
         external:
-            name: backend-web_default
+            name: backend_web
