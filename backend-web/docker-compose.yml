@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+    app:
+        container_name: backend-web
+        image: backend-web
+        build:
+            context: ./
+            dockerfile: Dockerfile.multi
+        volumes:
+            - ./dist:/usr/share/nginx/html/
+        expose:
+            - "80"
+        ports:
+            - 8899:80
