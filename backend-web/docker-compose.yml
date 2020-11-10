@@ -11,5 +11,7 @@ services:
             - ./dist:/usr/share/nginx/html/
         expose:
             - "80"
+            - "443"
         ports:
             - 8899:80
+            - 4499:443
