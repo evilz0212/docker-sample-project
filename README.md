@@ -15,9 +15,10 @@
 ![Docker-Nginx-Proxy](./public/preview.png)
 
 ## Overview
+> 同域名下使用路徑判斷代理到前端或後端 ( /api ) 
 #### Target
-1. 使用 Docker 容器分離前後端專案環境（同源）
-2. Nginx-proxy 連結 Docker Network 轉接前後端服務
+1. 使用 Docker 容器分離前後端專案環境
+2. Nginx-proxy 連結 Docker Network 代理前後端服務
 
 #### Detail
 -  Docker：multi 建置設定
